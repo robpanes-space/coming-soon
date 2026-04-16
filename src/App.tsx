@@ -166,7 +166,7 @@ export default function App() {
         </aside>
       </section>
 
-      <div className="app-center-control" aria-hidden="true">
+      <div className="app-center-control">
         <button type="button" className="play-button" aria-label="Watch video" onClick={handlePlay}>
           <svg viewBox="0 0 24 24" role="presentation" focusable="false">
             <path d="M8 5.5v13l11-6.5-11-6.5z" />
@@ -174,7 +174,7 @@ export default function App() {
         </button>
       </div>
 
-      <div className="app-background" aria-hidden="true">
+      <div className="app-background">
         <video
           className="app-background-video"
           ref={videoRef}
