@@ -179,6 +179,7 @@ export default function App() {
           className="app-background-video"
           ref={videoRef}
           playsInline
+          controls
           preload="none"
           poster={leftSectionImage}
           onEnded={handleVideoEnded}
